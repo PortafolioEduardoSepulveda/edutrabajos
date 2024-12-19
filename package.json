@@ -1,0 +1,43 @@
+{
+  "name": "edutrabajos",
+  "version": "1.0.0",
+  "description": "Portal EduTrabajos con NodeJs, Handlebars, Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index",
+    "desarrollo": "concurrently \"npm run dev\" \"npm run watch\" ",
+    "start": "node ./index.js",
+    "watch": "webpack --watch --mode development"
+  },
+  "author": "Eduardo Sepulveda Burgos",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^5.1.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "express-session": "^1.18.1",
+    "express-validator": "^5.3.1",
+    "mongoose": "^8.9.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.16",
+    "nodemailer-express-handlebars": "^3.0.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "shortid": "^2.2.16",
+    "slug": "^1.0.0",
+    "sweetalert2": "^11.15.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-loader": "^9.2.1",
+    "nodemon": "^3.1.9",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
