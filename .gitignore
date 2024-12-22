@@ -2,3 +2,5 @@
 node_modules
 # Ignora los archivos relacionados a API keys
 variables.env
+# Ignora config email
+config/emails.js
